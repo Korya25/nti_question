@@ -21,4 +21,8 @@ void main() {
   var name = 'Mahmoud';
   name = 'Mohamed'; // Correct
   // name = 10; // Error
+
+  dynamic num = 1;
+  num = 20; // Correct
+  num = 'Once'; // Correct
 }
